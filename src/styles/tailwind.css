@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-container {
+  @apply p-5 shadow-lg rounded bg-white;
+}
+.card-container:nth-last-child {
+  @apply mb-0;
+}
+.ellipsis {
+  @apply whitespace-nowrap overflow-hidden text-ellipsis;
+}
